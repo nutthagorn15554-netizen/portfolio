@@ -1,0 +1,64 @@
+.container{
+    border: 5px solid black;
+    padding: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.name{
+    color: black;
+    background-color: unset;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.hobb{
+    color: lightcyan;
+    background-color: unset;
+    border: 2px solid lightcyan;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.fav{
+    color: darkred;
+    background-color: unset;
+    border: 2px solid darkred;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex2{
+    display: column;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.draw{
+    color:teal;
+}
+.win{
+    color: limegreen;
+}
+.lose{
+    color: tomato;
+}
