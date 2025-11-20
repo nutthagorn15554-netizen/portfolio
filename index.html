@@ -32,7 +32,7 @@
     </nav>
     <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
 
-        <center>
+        <center id="scrollspyHeading1">
                 <h1 style="color: #08007c;">!Welcome to my world!</h1>
                 <div class="flex container">
                 <img width="200" height="200" src="20230402_010530.jpg" alt=""></a>
@@ -48,7 +48,7 @@
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
+            <div id="scrollspyHeading2" class="carousel-inner">
                 <div class="carousel-item active">
                 <center><img width="600" height="300" src="images (4).jpg"  alt="..."></center>
                 <div class="carousel-caption d-none d-md-block">
@@ -81,12 +81,28 @@
             </button>
         </div>
 
-        <div class="flex">
+        <div id="scrollspyHeading3" class="flex">
             <div class="card" style="width: 18rem;">
                 <img height="200" src="poster.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Poster design</h5>
                     <p class="card-text">ออกแบบโปสเตอร์เรื่อง "ตายทั้งเป็น"(the shock) ด้วยAdobe Photoshop</p>
+
+                    <button id="openModal6">Open</button>
+    
+                    <div class="modal" id="modal6">
+                        <div class="modal-inner">
+                            <h3>ออกบูธขายอาหารงานวันวิชาการ</h3>
+                            <hr>
+                            <p>
+                                ได้ช่วยทีมในการคิดไอเดียเมนูอาหารที่เป็นกระแสจากซีรีส์เรื่อง Squid Game 
+                                ทำMarketing ที่แตกต่างจากร้านอื่นโดยใช้ความถนัดของเพื่อนเป็นจุดขายเช่น การแต่งคอสเพลย์ ได้ใช้ทักษะการพูดในการเรียกลูกค้า 
+                                และการเจรจาในการแก้ปัญหาได้เรียนรู้การทำงานเป็นทีมภายใต้แรงกดดัน และการแก้ปัญหาเฉพาะหน้า
+                            </p>
+                            <button id="closeModal">Close</button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -94,6 +110,21 @@
                 <div class="card-body">
                     <h5 class="card-title">Esport Team Logo</h5>
                     <p class="card-text">ออกแบบโลโก้ทีม Tigris Esport ด้วยAdobe Illustrator</p>
+                    <button id="openModal5">Open</button>
+    
+                    <div class="modal" id="modal5">
+                        <div class="modal-inner">
+                            <h3>ออกบูธขายอาหารงานวันวิชาการ</h3>
+                            <hr>
+                            <p>
+                                ได้ช่วยทีมในการคิดไอเดียเมนูอาหารที่เป็นกระแสจากซีรีส์เรื่อง Squid Game 
+                                ทำMarketing ที่แตกต่างจากร้านอื่นโดยใช้ความถนัดของเพื่อนเป็นจุดขายเช่น การแต่งคอสเพลย์ ได้ใช้ทักษะการพูดในการเรียกลูกค้า 
+                                และการเจรจาในการแก้ปัญหาได้เรียนรู้การทำงานเป็นทีมภายใต้แรงกดดัน และการแก้ปัญหาเฉพาะหน้า
+                            </p>
+                            <button id="closeModal">Close</button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -101,6 +132,22 @@
                 <div class="card-body">
                     <h5 class="card-title">Blender</h5>
                     <p class="card-text">ปั้นโมเดลหุ่น3D ใส่texture,ฉาก,ท่าทางอนิเมชั่น โดยเรียนรู้จากยูทูป</p>
+
+                    <button id="openModal4">Open</button>
+    
+                    <div class="modal" id="modal4">
+                        <div class="modal-inner">
+                            <h3>ออกบูธขายอาหารงานวันวิชาการ</h3>
+                            <hr>
+                            <p>
+                                ได้ช่วยทีมในการคิดไอเดียเมนูอาหารที่เป็นกระแสจากซีรีส์เรื่อง Squid Game 
+                                ทำMarketing ที่แตกต่างจากร้านอื่นโดยใช้ความถนัดของเพื่อนเป็นจุดขายเช่น การแต่งคอสเพลย์ ได้ใช้ทักษะการพูดในการเรียกลูกค้า 
+                                และการเจรจาในการแก้ปัญหาได้เรียนรู้การทำงานเป็นทีมภายใต้แรงกดดัน และการแก้ปัญหาเฉพาะหน้า
+                            </p>
+                            <button id="closeModal">Close</button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -111,6 +158,22 @@
                 <div class="card-body">
                     <h5 class="card-title">Arduino Car</h5>
                     <p class="card-text">ทำรถArduino เดินตามเส้น-บังคับด้วยWifi</p>
+
+                    <button id="openModal3">Open</button>
+    
+                    <div class="modal" id="modal3">
+                        <div class="modal-inner">
+                            <h3>ออกบูธขายอาหารงานวันวิชาการ</h3>
+                            <hr>
+                            <p>
+                                ได้ช่วยทีมในการคิดไอเดียเมนูอาหารที่เป็นกระแสจากซีรีส์เรื่อง Squid Game 
+                                ทำMarketing ที่แตกต่างจากร้านอื่นโดยใช้ความถนัดของเพื่อนเป็นจุดขายเช่น การแต่งคอสเพลย์ ได้ใช้ทักษะการพูดในการเรียกลูกค้า 
+                                และการเจรจาในการแก้ปัญหาได้เรียนรู้การทำงานเป็นทีมภายใต้แรงกดดัน และการแก้ปัญหาเฉพาะหน้า
+                            </p>
+                            <button id="closeModal">Close</button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -118,6 +181,22 @@
                 <div class="card-body">
                     <h5 class="card-title">ออกบูธขายอาหาร</h5>
                     <p class="card-text">ออกบูธขายอาหาร ม.5/5 ขนมdalgona (เป็นฝ่ายการตลาด/ขาย)</p>
+
+                    <button id="openModal2">Open</button>
+    
+                    <div class="modal" id="modal2">
+                        <div class="modal-inner">
+                            <h3>ออกบูธขายอาหารงานวันวิชาการ</h3>
+                            <hr>
+                            <p>
+                                ได้ช่วยทีมในการคิดไอเดียเมนูอาหารที่เป็นกระแสจากซีรีส์เรื่อง Squid Game 
+                                ทำMarketing ที่แตกต่างจากร้านอื่นโดยใช้ความถนัดของเพื่อนเป็นจุดขายเช่น การแต่งคอสเพลย์ ได้ใช้ทักษะการพูดในการเรียกลูกค้า 
+                                และการเจรจาในการแก้ปัญหาได้เรียนรู้การทำงานเป็นทีมภายใต้แรงกดดัน และการแก้ปัญหาเฉพาะหน้า
+                            </p>
+                            <button id="closeModal">Close</button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
@@ -125,14 +204,15 @@
                 <div class="card-body">
                     <h5 class="card-title">Esport Experience</h5>
                     <p class="card-text">ทำทีมแข่งเกมEsport(Dota2,Rb6,Ow2) จัดแข่งLOL</p>
-                    <button id="openModal">Open</button>
+
+                    <button id="openModal1">Open</button>
     
-                    <div class="modal" id="modal">
+                    <div class="modal" id="modal1">
                         <div class="modal-inner">
                             <h3>ทำทีมแข่งเกมEsport</h3>
                             <hr>
                             <p>
-                                ผมได้สร้างสรรค์กิจกรรมและออกแบบโครงการ เช่น การจัดแข่งอีสปอร์ตในคอมมูนิตี้ 2 ครั้ง ในปี 2023–2024 ซึ่งมีผู้เข้าร่วมมากกว่า 20 คน โดยใช้เงิน
+                                ผมได้จัดกิจกรรมแข่งอีสปอร์ตในคอมมูนิตี้ 2 ครั้ง ในปี 2023–2024 ซึ่งมีผู้เข้าร่วมมากกว่า 20 คน โดยใช้เงิน
                                 ของผมและเพื่อนเป็นเงินรางวัล ผมได้เรียนรู้อะไรหลายๆ อย่างจากการจัดกิจกรรมนี้ เช่น การทำการตลาดเพื่อดึงดูดผู้เข้าร่วม การทำแบบฟอร์มสมัครและกติกา
                                 การสร้างคอนเทนต์ และการจัดระบบให้กิจกรรมดูน่าเชื่อถือ ซึ่งทำให้คนอื่นสนใจและสมัครเข้าร่วม
 
@@ -140,12 +220,13 @@
                             <button id="closeModal">Close</button>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
 
         <div class="container">
-            <center>
+            <center id="scrollspyHeading4">
             <div class="flex3 ">
             <img width="100" height="100" src="taunt_rps_large.f1021ca16dc248db9e84818ce6c1928f92e26734.png"></a>
             <h1 style="color: rgb(255, 62, 28);">[RPS GAME]</h1>
@@ -167,7 +248,7 @@
 
         </div>
         
-        <center>
+        <center id="scrollspyHeading5">
             <h1 class="stroke" style="color: #ffffff;">CONTACT</h1>
         </center>
         <div class="flex">

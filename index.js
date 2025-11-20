@@ -1,13 +1,26 @@
-const openBtn = document.getElementById("openModal");
-const closeBtn = document.getElementById("closeModal");
-const modal = document.getElementById("modal");
+const open1 = document.getElementById("openModal1");
+const open2 = document.getElementById("openModal2");
+const open3 = document.getElementById("openModal3");
+const open4 = document.getElementById("openModal4");
+const open5 = document.getElementById("openModal5");
+const open6 = document.getElementById("openModal6");
 
-openBtn.addEventListener("click", () => {
-    modal.classList.add("open");
-});
+const modal1 = document.getElementById("modal1");
+const modal2 = document.getElementById("modal2");
+const modal3 = document.getElementById("modal3");
+const modal4 = document.getElementById("modal4");
+const modal5 = document.getElementById("modal5");
+const modal6 = document.getElementById("modal6");
 
-closeBtn.addEventListener("click", () => {
-    modal.classList.remove("open");
+open1.onclick = () => modal1.classList.add("open");
+open2.onclick = () => modal2.classList.add("open");
+open3.onclick = () => modal3.classList.add("open");
+open4.onclick = () => modal4.classList.add("open");
+open5.onclick = () => modal5.classList.add("open");
+open6.onclick = () => modal6.classList.add("open");
+
+document.querySelectorAll(".modal").forEach(m => {
+    m.onclick = () => m.classList.remove("open");
 });
 
 
